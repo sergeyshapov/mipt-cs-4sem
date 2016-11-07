@@ -23,7 +23,7 @@ public class ArraysDemo
 		System.out.println ("Third vector: " + vectorC);
 
 		System.out.println ("A + D: " + vectorA.add (vectorD));
-//		System.out.println ("Summ of first two vectors: " + vectorA.add (vectorB));
+		//System.out.println ("Summ of first two vectors: " + vectorA.add (vectorB));
 
 		System.out.println ("1 + 3 == 4: " + (1 + 3 == 4));
 		Vector vectorE = new Vector (2);
