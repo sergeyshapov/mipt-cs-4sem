@@ -28,7 +28,8 @@ public class Vector
 				newCoords[i] = components[i] + other.components[i];
 			}
 			return new Vector (newCoords);
-		} else
+		} 
+		else
 		{
 			throw new IllegalArgumentException ("Vectors dimension missmatch");
 		}
